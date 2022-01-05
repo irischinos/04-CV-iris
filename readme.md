@@ -1,6 +1,7 @@
 <h1>Creación de CV</h1>
 
 Github pages: <a href="https://irischinos.github.io/04-CV-iris/">aquí</a>.
+<br>
 Mobile first
 
 1. Preámbulo
