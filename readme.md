@@ -8,11 +8,9 @@ Mobile first
 
 La creación de mi CV usando HTML, CSS, JS y Bootstrap con el fin de dar a conocer un vistazo general a lo que he aprendido conjuntando el stack de tecnologías, y cualquiera pueda visualizarlo.
 
-1.1 Prototipo de baja fidelidad
----- pegar fotos de wireframes a mano //
+1.1 Prototipo
 
-1.2 Prototipo de alta fidelidad
----- pegar foto figma y link a proyecto // 
+![landing-page-cviris](https://user-images.githubusercontent.com/67532083/148292065-9ce18dd0-7f33-48be-9c9e-1e7bc1eb4cb8.jpg)
 
 2. Definición del proyecto
 
