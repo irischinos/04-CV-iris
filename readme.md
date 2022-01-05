@@ -1,4 +1,5 @@
-Creación de CV y portafolio
+<h1>Creación de CV</h1>
+<hr>
 
 Mobile first
 
