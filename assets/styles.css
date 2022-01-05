@@ -1,0 +1,245 @@
+/*
+
+PALETA DE COLORES:
+
+LEMON: #D7DD35
+GRAPE: #575DA9
+FUCSIA: #E42D9F
+BLUE: #025588
+
+*/
+
+/*
+<----------- Tipografías --------->
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&family=Poppins:wght@200&family=Raleway&family=Roboto:wght@100&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Raleway&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif; 
+}
+
+/*
+<----------- Tamaños letras --------->
+*/
+.font-35px {
+  font-size: 35px;
+}
+.font-1 {
+  font-size: 1.5em;
+}
+.font-2 {
+  font-size: 2.5em;
+}
+.font-3 {
+  font-size: 3em;
+}
+
+
+/*
+<----------- Margins & paddings --------->
+*/
+.mg-top-40 {
+  margin-top: 40px;
+}
+.pd-10 {
+  padding: 10px;
+}
+.mg-bottom-5 {
+  margin-bottom: 10px;
+}
+.mg-bottom-30 {
+  margin-bottom: 30px;
+}
+.mg-top-50 {
+  margin-top: 50px;
+}
+.mg-top-70 {
+  margin-top: 70px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  
+}
+nav.navbar {
+  background-color: white;
+}
+.menu-nav {
+  margin-left: 55%;
+  font-size: 20px;
+}
+.nav-item{
+  margin-right: 40px;
+}
+.pink-circle {
+  background-image: url("https://i.pinimg.com/originals/45/bf/e9/45bfe9b2ae48be7c665c0806f0445b5f.jpg");
+}
+.pic-iris {
+  width: 80%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid #D7DD35;
+}
+.img-stack {
+  width: 50%;
+  height: auto;
+}
+.yellow {
+  color: #D7DD35;
+}
+.logo {
+  color: #575DA9;
+  font-size: 2em;
+  position: fixed;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+h1 {
+  color: #E42D9F;
+}
+h2, h4 {
+  color: #575DA9;
+}
+
+.bi {
+  color: #025588;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 7px;
+}
+.bi:hover {
+  color: #D7DD35;
+  animation-delay: 2s, 4ms;
+}
+.nav-link {
+  text-decoration: none;
+  background-image: linear-gradient(#D7DD35, #D7DD35);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .4s;
+}
+.nav-link:hover {
+  text-decoration: #D7DD35;
+  background-size: 100% 2px;
+}
+.navbar-brand {
+  background-color: transparent;
+}
+.img-CV-me {
+  width: 20em;
+  height: 20em;
+}
+.gps-google {
+  width: 100%;
+  height: 100%;
+}
+iframe {
+  position: relative;
+  float: right;
+  z-index: 10000;
+  background-color: #E42D9F;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+input, textarea {
+  width: 100%;
+  margin: 0 auto;
+}
+.yellow-bar {
+  height: 5px;
+  width: 100%;
+  border: 3px solid #D7DD35 ;
+}
+/*
+------------ Portafolio imágenes ---------------
+*/
+.bg-img1 {
+  background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/07/6c/19/54.jpg");
+  width: auto;
+  height: 300px;
+  color: transparent;
+}
+.bg-img1:hover {
+  color: white;
+  text-align: right;
+  font-size: 1.5em;
+  transition: 1.5s;
+}
+.bg-img2 {
+  background-image: url("https://officemat.es/wp-content/uploads/2020/08/acuarela.jpg");
+  width: 100px;
+  height: 300px;
+  color: transparent;
+}
+.bg-img2:hover {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  transition: 1.5s;
+}
+.bg-img3 {
+  background-image: url("https://static1.funidelia.com/blog/wp-content/uploads/2016/11/fiestas-decadas.jpg");
+  width: 100px;
+  height: 210px;
+  color: transparent;
+}
+.bg-img3:hover {
+  color: white;
+  text-align: left;
+  font-size: 1.5em;
+  transition: 1.5s;
+}
+.bg-img4 {
+  background-image: url("https://cdn1.matadornetwork.com/blogs/2/2016/12/shutterstock_1019302492-560x420.jpg");
+  width: auto;
+  height: auto;
+  color: transparent;
+  font-size: 1.5em;
+}
+.bg-img4:hover {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  transition: 1.5s;
+}
+.bg-img5 {
+  background-image: url("https://www.dondeir.com/wp-content/uploads/2016/11/b1.jpg");
+  width: auto;
+  height: auto;
+  color: transparent;
+  font-size: 1.5em;
+}
+.bg-img5:hover {
+  color: white;
+  text-align: right;
+  font-size: 1.5em;
+  transition: 1.5s;
+}
+
+.btn-send {
+  background-color: #D7DD35;
+  border: 3px solid transparent;
+  width: 200px;
+}
+
+footer {
+  background-color: #E42D9F;
+  color: rgba(255, 255, 255, 0.733);
+}
+.footer-copyright {
+  font-size: 1.5em;
+}
+/* <a href='https://www.freepik.es/vectores/cepillo'>Vector de Cepillo creado por Creative_hat - www.freepik.es</a> */
